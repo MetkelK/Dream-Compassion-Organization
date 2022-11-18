@@ -262,25 +262,117 @@ nav a {
 }
 
 .intro {
-    background-image: url('./assets/avel-chuklanov-9cx4-QowgLc-unsplash.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
+  background-image: url('./assets/avel-chuklanov-9cx4-QowgLc-unsplash.jpg');
+  background-color: rgba(0,0,0,0.3);
+  background-blend-mode: darken;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
 }
 
-.intro h2 {
-    width: 50%;
-    margin: 0 auto;
-    padding-bottom: 15px;
-    color: #FFF;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 24px;
+.intro h1 {
+  color: #FFF;
+  font-family: 'Montserrat';
+  /* font-size: 28px; */
+}
+
+.intro p {
+  width: 50%;
+  margin: 0 auto;
+  padding-bottom: 15px;
+  color: #FFF;
+  font-family: 'Montserrat';
+  /* font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 24px; */
+}
+
+.second {
+  height: 100vh;
+  position: relative;
+}
+
+.bg-one {
+  background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.3) 10%, rgb(255, 255, 255) 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bg-two {
+  background-image: url('./assets/ben-white-PAiVzSmYy-c-unsplash.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  
+}
+
+.card-containers {
+  position: absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: #FFF;
+  height: 350px;
+  width: 350px;
+  text-align: left;
+  padding: 2rem 1rem;
+  border: 1px solid #243B4A;
+  border-radius: 5px;
+  margin: 0 30px;
+  box-shadow: 1px 15px 16px -1px rgba(0,0,0,0.49);
+  -webkit-box-shadow: 1px 15px 16px -1px rgba(0,0,0,0.49);
+  -moz-box-shadow: 1px 15px 16px -1px rgba(0,0,0,0.49);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card h2 {
+  text-align: center;
+  margin: 15px 0;
+}
+
+.card p {
+  margin: 15px 0;
+
+}
+
+.card a {
+  padding: 15px 20px;
+  border: 1px solid #243B4A;
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
+  transition: transform 0.3s ease-out;
+  margin: 15px 0;
+}
+
+.card a:hover {
+  color: white;
+  transform: translateY(-4px);
+  background-color: #243B4A;
+  box-shadow: 1px 15px 16px -1px rgba(0,0,0,0.49);
+  -webkit-box-shadow: 1px 15px 16px -1px rgba(0,0,0,0.49);
+  -moz-box-shadow: 1px 15px 16px -1px rgba(0,0,0,0.49);
 }
